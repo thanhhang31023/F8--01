@@ -164,7 +164,24 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 96px;
+    margin-top: 70px;
+}
+
+.clients .images a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 42px;
+    border-radius: 12px;
+}
+
+.clients .images a:hover {
+    box-shadow: 0px 10px 20px rgb(223, 222, 222);
+}
+
+.clients .images a:nth-child(3):hover {
+    box-shadow: 0px 0px;
+    padding: 0;
 }
 
 /* ***********Guides******* */
@@ -253,7 +270,7 @@ line-height: 2.2rem; /* 110% */
     margin-top: 41px;
     padding: 110px 0;
     background: #f5fafe;
-    background: #F5FAFE;
+    background: #f5fafe;
 }
 
 .featured .sub-title {
@@ -446,7 +463,7 @@ line-height: 2.2rem; /* 110% */
     width: 400px;
     height: 460px;
     border-radius: 12px;
-    object-fit:cover;
+    object-fit: cover;
 }
 
 .stats .sub-title {
